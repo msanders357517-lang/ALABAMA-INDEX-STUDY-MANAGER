@@ -4,7 +4,7 @@
 */
 'use strict';
 const KEY='aism-v1';
-const COUNTIES=['Barbour','Bullock','Butler','Coffee','Covington','Crenshaw','Dale','Geneva','Henry','Houston','Lee','Lowndes','Macon','Montgomery','Pike','Russell'];
+const COUNTIES=['Autauga', 'Baldwin', 'Barbour', 'Bibb', 'Blount', 'Bullock', 'Butler', 'Calhoun', 'Chambers', 'Cherokee', 'Chilton', 'Choctaw', 'Clarke', 'Clay', 'Cleburne', 'Coffee', 'Colbert', 'Conecuh', 'Coosa', 'Covington', 'Crenshaw', 'Cullman', 'Dale', 'Dallas', 'DeKalb', 'Elmore', 'Escambia', 'Etowah', 'Fayette', 'Franklin', 'Geneva', 'Greene', 'Hale', 'Henry', 'Houston', 'Jackson', 'Jefferson', 'Lamar', 'Lauderdale', 'Lawrence', 'Lee', 'Limestone', 'Lowndes', 'Macon', 'Madison', 'Marengo', 'Marion', 'Marshall', 'Mobile', 'Monroe', 'Montgomery', 'Morgan', 'Perry', 'Pickens', 'Pike', 'Randolph', 'Russell', 'St. Clair', 'Shelby', 'Sumter', 'Talladega', 'Tallapoosa', 'Tuscaloosa', 'Walker', 'Washington', 'Wilcox', 'Winston'];
 const IMG_SLOTS=[['sketch','Building sketch'],['front','Front elevation'],['rear','Rear elevation'],['left','Left elevation'],['right','Right elevation'],['aerial','Individual aerial'],['locator','County locator map']];
 const CHECKS=[
  ['Prerequisites and samples',[
